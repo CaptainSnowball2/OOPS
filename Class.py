@@ -10,6 +10,10 @@ class classs():
         print("spelling: "+str(self.spelling))
         print("English: "+str(self.English))
         print("PE: "+str(self.PE))
-        
+    def t(self):
+        A=(self.math+self.spelling+self.English+self.PE)/4
+        print(A)
+
 student1=classs(7.8,5.2,10,9.6)
 student1.d()
+student1.t()
