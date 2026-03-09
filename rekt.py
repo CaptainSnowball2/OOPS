@@ -15,8 +15,8 @@ class rex():
         self.t=t
     def draw(self):
         pygame.draw.rect(screen,self.color,(self.x,self.y,self.w,self.h),self.t)
-rect1=rex(10,10,300,68,(67,67,67),1)
-rect2=rex(200,100,50,200,"red",20)
+rect1=rex(10,10,485,10,(67,67,67),1)
+rect2=rex(200,100,10,290,"red",0)
 rect1.draw()
 rect2.draw()
 while True:
